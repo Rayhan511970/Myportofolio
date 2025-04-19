@@ -1,0 +1,323 @@
+porto final
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofoliopage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+   
+
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 80px 0;
+    }
+
+    /* Home sectio css start */
+    #home{
+      background: linear-gradient(to right, #00c2fd, #000000);
+      color: white;
+      padding: 120px 0;
+    }
+    
+    #home h1{
+      font-size: 56px;
+      font-weight: 500px;
+      font-weight: bold;
+      font-family:  bookman old style;
+     
+      
+    }
+    
+    #home h3{
+      margin-left: 0px;
+      font-size: 25;
+      font-style: italic;
+      margin-bottom: none;
+
+    }
+    /* Home sectio css end */
+
+    /* About css */
+    #about h2{
+      font-family: georgia;
+    }
+
+    .info p{
+      font-weight: bolder;
+    }
+
+   
+
+   .info h2{
+    text-align: center;
+
+   } 
+  
+    div form{
+      color: #fff;
+    }
+
+    #kontak {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#kontak .container {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  max-width: 100%; /* opsional biar full width */
+}
+
+#kontak .row {
+  margin: 0 !important;
+}
+
+#kontak .col-lg-6 {
+  padding: 0 !important;
+}
+#project h2{
+  font-weight: bolder;
+  font-family: Georgia;
+}
+
+#kontak{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+/* Efek pop hover pada tombol */
+.btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Efek pop hover pada card project */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+  </style>
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+      <a class="navbar-brand" style="font-family: Georgia, 'Times New Roman', Times, serif;" href="#">Myporto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+     
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Contact</a></li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Porto Start -->
+<section id="home">
+    <div class="container-fluid " style="height: 95vh;">
+      <div class="row align-items-center">
+        <!-- Teks -->
+        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+          
+
+<h1 class="display-4">Muhammad Rayhan</h1>
+
+
+<h3>Front End Developer/UI UX Designer</h3>
+<a href="#project" class="btn btn-light" style="margin-left: 0; font-weight: bold;">Myproject</a>
+</div>
+        
+  
+        <!-- Foto -->
+        <div class="col-md-6 text-center">
+         
+          <img src="PP.jpeg"alt="Foto Profil" class="img-fluid rounded-circle profile -img mt-4 mt-lg-0" style="width: 500px; height: 500; ">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About -->
+<section id="about">
+ 
+  <div class="container text-center">
+    <div class="col-12 ">
+      <img src="Man.png" alt="My image" width="150" height="150">
+      <h2 class="mt-2">🎓 Muhammad Rayhan  🎓</h2>
+      <i> Mahasiswa <span style="color: magenta;">👨‍💻 Teknik Informatika</span>  </i> 
+      <br>
+      <i>Institut Teknologi Padang </i>
+      
+    
+    
+    
+    </div>
+  </div>
+ <!-- Tentang saya -->
+ <div>
+     <div class="info" style="width: 100%;  padding: 60px 0 120px 0; margin: 0;">
+     <h2 class="fw-bold mb-4 text-center">Tentang Saya</h2>
+     <center>
+
+       <p style="margin: 0 auto; max-width: 900px;">
+         Saya adalah seorang mahasiswa Teknik Informatika dari salah satu falkutas teknik Institut Teknologi Padang, pada saat ini saya sedang menjalani semester 4. disini saya mempelajari tentang bagaimana  cara kerja komputer dalam mengeksekusi perintah-perintah pada program yang ada, dan saya juga belajar bagaimana cara beradaptasi dengan teknologi yang berkembang dengan sangat cepat.  </p>
+        </center>
+      <!-- Tentang saya -->
+
+
+
+
+  </div>
+</div>
+
+</section>
+
+<!-- Project -->
+ 
+<section id="project">
+  <div class="container-fluid " style="height: 120vh;">
+    
+    <h2 class="text-center ">Myproject</h2>
+    
+    <div class="row text-dark width-100vh mt-10">
+      
+      <div class="col-sm-4  g-4 ">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Project 1</h5>
+        <center>
+          
+          <img src="front-end-removebg-preview.png" alt="Front-End">
+        </center>
+        <p class="card-text text-center">Membuat Front-End</p>
+        <a href="project1.html" class="btn btn btn-dark d-block">Lihat</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center">Project 2</h5>
+        <center>
+          
+          <img src="Sql-removebg-preview.png" alt="sql">
+        </center>
+        <p class="card-text text-center"> Membuat Data base</p>
+        <a href="project2.html" class="btn btn-dark d-block">Lihat</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4 g-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center ">Project 3</h5>
+        <center>
+          
+          <img src="Java-Logo-removebg-preview.png"alt="java">
+        </center>
+        <p class="card-text text-center"> Membuat Sebuah Program dengan Java</p>
+        <a href="project3.html" class="btn btn btn-dark d-block">Lihat</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+<!-- Kontak -->
+
+<section id="kontak">
+  <div class="container-fluid bg-dark text-white mt-0 g-320" >
+  
+    <div class="card-body bg-dark text-light">
+      <div class="container">
+        <h2 class="mb-4 font-italy text-center mt-8 pt-32">Contact Me</h2>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <a href="https://linkedin.com"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=FFFFFF" class="ikon"/ style="width: 25;"></a>
+          <a href="https://figma.com"><img src="https://img.icons8.com/?size=100&id=amXjtNWVYSKP&format=png&color=FFFFFF" class="ikon"/ style="width: 25;"></a>
+          <a href="#"><img src="https://img.icons8.com/?size=100&id=30888&format=png&color=FFFFFF" class="ikon"/ style="width: 25;"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 p-4 border-end text-white bg-dark">
+          <h5>Informasi Kontak</h5>
+          <a href="https://instagram.com"><img src="https://img.icons8.com/?size=100&id=RhYNENh5cxlS&format=png&color=FFFFFF" class="ikon"/ style="width: 25;"></a>
+          <i>@raaayhanss</i>
+          <br>
+          <br>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=2023610047.rayhan@itp.ac.id"><img src="https://img.icons8.com/?size=100&id=38159&format=png&color=FFFFFF" class="ikon"/ style="width: 25;"></a>
+          <i>rayhan@email.com</i>
+          <br>
+          <br>
+         <a href="https://web.whatsapp.com/">
+
+           <img src="https://img.icons8.com/?size=100&id=16712&format=png&color=ffffff" alt="" style="width: 25;">
+         </a> 
+            <i>+62 0822 8487 4408 </i>
+          </div>
+          <div class="col-md-8 p-4 bg-dark text-white">
+            <!-- Form Kontak -->
+            <form>
+              <div class="mb-3">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                  <label for="subject" class="form-label">Subjek</label>
+                  <input type="text" class="form-control" id="subject" required>
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+          </div>
+        </div>
+        
+     
+  </div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class=" text-white text-center py-3" style="background-color: black;">
+  <p class="mb-0">&copy; 2025 Rayhan. Website ini hanya untuk tugas</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
